@@ -1,0 +1,12 @@
+# local builds
+/bridge-gateway
+/gateway
+*.test
+
+# runtime files of a local run: contain tokens (never commit)
+/config.yaml
+state.json
+audit.jsonl
+/data/
+/registrations/
+.env
